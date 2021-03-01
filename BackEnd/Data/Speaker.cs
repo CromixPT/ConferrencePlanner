@@ -8,6 +8,9 @@ namespace BackEnd.Data
 {
     public class Speaker : ConferenceDTO.Speaker
     {
+        /// <summary>
+        /// TESTE!
+        /// </summary>
         public virtual ICollection<SessionSpeaker> SessionSpeakers { get; set; } = new List<SessionSpeaker>();
     }
 }
